@@ -1,0 +1,32 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  a{
+      text-decoration: none;
+  }
+
+h2, p{
+    text-align: center;
+}
+#readme-wrapper {
+    text-align: center;
+}
+a:hover {
+    background-color: lightpink;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.box {
+    height: 6cm;
+    width: 10cm;
+}
+.gray {
+    background: lightgray
+}
+
+.border-red {
+    border: 1px solid rgba(219, 219, 219, 0.356);
+    box-sizing: border-box;
+
+}
