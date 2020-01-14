@@ -4,12 +4,23 @@ body {
   a{
       text-decoration: none;
   }
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    font-family: cursive;
+    /* color: rgba(128, 0, 128, 0.829); */
+}
 
 h2, p{
     text-align: center;
 }
 #readme-wrapper {
     text-align: center;
+}
+ul {
+    color: cyan;
 }
 a:hover {
     background-color: lightpink;
@@ -18,15 +29,72 @@ a:hover {
 }
 
 .box {
-    height: 6cm;
-    width: 10cm;
-}
-.gray {
-    background: lightgray
+    display: block;
+    margin: 5px;
+    padding: 1px 1px 1px 1px;
+    border: 10px solid rgb(94, 255, 0);
+    border-radius: 25px 25px 25px 25px;
+    width: 30em;
 }
 
-.border-red {
-    border: 1px solid rgba(219, 219, 219, 0.356);
-    box-sizing: border-box;
+.image {
+height: 25px;
+width: 25px;
+border-radius: 50px;
+position: absolute;
+background-color: orchid;
+}
 
+#box1 {
+    background-color: red;
+}
+
+#box2 {
+    background-color: rgb(226, 142, 156);
+}
+
+#box3 {
+    background-color: yellow;
+}
+
+#box4 {
+    background-color: orangered;
+}
+.original {
+    color: rgb(211, 105, 30);
+}
+
+.additional{
+color: green;
+}
+
+#show1 {
+    color: blue;
+}
+#show2 {
+color: red;
+}
+#show3{
+color: salmon;
+}
+#show4 {
+color: black;
+}
+
+#show5 {
+color: chartreuse;
+}
+
+.unordered {
+    border: 2px solid black;
+}
+.star {
+    color: crimson;
+}
+#wars {
+    color: rgb(255, 84, 5);
+}
+span.specialWord {
+    color: green; font-weight: bold; 
+    text-decoration: underline; font-style: italic;
 }
